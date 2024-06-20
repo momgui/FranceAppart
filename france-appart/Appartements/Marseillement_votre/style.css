@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.footerList {
+    display: flex; 
+    justify-content: space-between;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #efefef;
+}
+
+.languagebtn:hover, .languagebtn:focus {
+    background-color: #efefef;
+}
+
+.rechercheBtn{
+    padding: 15px;
+    margin-left: -40%;
+    border-radius: 30px;
+    border: none;
+    width: 180%;
+    position: absolute;
+    background-color: #efefef;
+    margin-top: 6%;
+}
+
+.rechercheBtn2{
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    width: 80%;
+    background-color: #efefef;
+    margin-top: 6%;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+
+.search_div {
+    margin-left: auto;
+} 
+
+.form2 {
+    display: none;
+}
+
+.titre {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+form {
+    width: 100%;
+    margin-top: 3%;
+    display: block;
+    padding-right: 5%;
+}
+
+.b {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+nav .onglets a {
+    font-size: 17px;
+    margin-right: 10px;
+    margin-top: 9%;
+    cursor: pointer;
+}
+
+.languagebtn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding-top: 13px;
+    cursor: pointer;
+    margin-top: 3%;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 13px;
+    border-radius: 16px !important;
+}
+
+form input {
+    padding: 15px;
+    margin-left: -40%;
+    padding-left: 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    position: absolute;
+    background-color: #efefef;
+    margin-top: 6%;
+}
+
+.searchbtn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -53%;
+    margin-left: 260%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+nav{
+	display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+nav .onglets{
+  display: flex;
+  flex-wrap:wrap;
+  margin-left: auto;
+}
+
+nav .home{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+nav .home a{
+  font-size: 20px;
+  margin-right: 10px;
+  margin-top: 14%;
+  cursor:pointer;
+}
+
+footer a {
+	color: #3b4aff !important;
+  text-decoration:none; 
+	cursor: pointer;
+}
+
+.deroulant i {
+	margin-top: 120%;
+}
+
+.main {
+	margin: 20px;
+  	margin-top: 80px;
+  	display:flex;
+  	flex-direction:column;
+  	justify-content:center;
+  	align-items:center;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+.center{
+    text-align: center;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+#apartmentIframeAll {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 400%;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.text2 {
+  color: white;
+  font-size: 150%;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.container h3 {
+	border-bottom: solid 1px #cccccc;
+	margin: 25px 0 15px;
+    padding: 0 0 10px 0;
+}
+
+.container3 h3 {
+	border-bottom: solid 1px #cccccc;
+	margin: 25px 0 15px;
+    padding: 0 0 10px 0;
+}
+
+.container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+}
+
+.container1 {
+	padding-top: 10px;
+}
+
+.collone_droite {
+	padding-top: 1px;
+	width: 50%;
+	position: relative;
+	float: right;
+
+}
+
+.collone_gauche {
+	width: 50%;
+	position: relative;
+	float:left;
+}
+
+.deroulant {
+	display: none;
+	font-size: 20px;
+  	margin-right: 10px;
+ 	margin-top: 20%;
+ 	cursor:pointer;
+}
+
+
+ul {
+	display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 60%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px !important;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #efefef;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 6%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: relative;
+    width: 100%;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+footer {
+  background: #222222;
+	color: white;
+	padding-top: 10px;
+}
+
+
+
+.col {
+	column-count: 2;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+@media screen and (max-width: 640px){
+	nav .onglets .link{
+		display: none;
+	}
+
+	.text{
+		font-size: 100%;
+	}
+
+	.text2{
+		font-size: 75%;
+		margin-bottom: -2%;
+	}
+
+
+	.deroulant {
+		display: contents;
+	}
+	
+	.collone_gauche {
+		margin-left: -5%;
+	}
+
+	.dropdown {
+		display: contents;
+	}
+
+	nav .onglets {
+		display: flex;
+    	flex-wrap: wrap;
+    	justify-content: space-evenly;
+    	align-items: center;	
+    }
+
+	.collone_droite {
+		margin-left: 45%;
+	}
+
+
+}
+
+@media screen and (max-width: 780px){
+    nav .onglets .link{
+        display: none;
+    }
+    .dropdown {
+        display: contents;
+    }
+    .deroulant {
+        display: contents;
+    }
+    nav .onglets {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;    
+    }
+
+    .titre1 {
+        font-size: 300%;
+    }
+
+    .sousTitre1 {
+        font-size: 100%;
+    }
+
+}
+
+
+@media screen and (max-width: 600px){
+    .titre {
+        display: none;
+    }
+    .sousTitre1{
+        display: none;
+    }
+
+    .text {
+        font-size: 80%;
+    }
+
+    
+
+    nav .home a {
+        font-size: 30px;
+        margin-top: 55%;
+    }
+
+    .search_div {
+        margin-left: inherit;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .form2{
+        display: contents;
+    } 
+
+    form input {
+        margin-left: unset;
+        position: unset;
+    }
+    .text {
+        font-size: 60%;
+    }
+
+    
+
+    .form1{
+        display: none;
+    }
+
+    #search{
+        width: 80%;
+    }
+
+    .b{
+        width: 100%;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 841px){
+    nav .onglets .link{
+        display: none;
+    }
+    .dropdown {
+        display: contents;
+    }
+    nav .onglets .linkan{
+        display: none;
+    }  
+
+    .logement{
+        width: 90%;
+    }
+    nav .onglets {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;    
+    }
+
+    .footerList {
+        display: contents;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    form {
+        margin-left: auto;
+    }
+    .search_div {
+        margin-left: inherit;
+    }
+}

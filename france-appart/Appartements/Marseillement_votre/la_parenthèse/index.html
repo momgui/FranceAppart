@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>marseillement votre</title>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+		<link rel="stylesheet" href="..\style.css">		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
+	</head>
+	<body>
+
+		<!--barre de navigation-->
+			<nav>
+				<div class="home">
+					<a href="..\..\recherche.php"><i class="fas fa-long-arrow-alt-left"></i></a>
+					<p class="titre">France-Appart</p>
+				</div>
+				<div class="search_div">						
+					<div class="form1" style="position: absolute; margin-top: 20px; width: 10%;">
+							<button class="rechercheBtn" onclick="window.location = 'https://france-appart.fr/Appartements/recherche.php';">Où voulez vous aller?</button>
+					</div>
+				</div>
+				<div class="onglets">
+					<a class="link" style="display: none;">Connexion / Inscription</a>
+					<a class="link">Proposer mon hébergement</a>
+					<div class="language">
+  						<button onclick="myFunctionlanguagefr()" class="languagebtn" style="margin-top: 8%;"><i class="fas fa-flag-usa" style="margin: 20%;"></i><p style="margin: -1%;" class="anglais">Anglais</p></button>
+					</div>
+					<div class="dropdown">
+  						<button onclick="myFunction()" class="dropbtn"><i class="fas fa-align-justify"></i></button>
+					</div>
+				</div>
+				<div id="myDropdown" class="dropdown-content">
+    				<a href="https://france-appart.fr/espace_membre/Inscription.php">Connexion / Inscription</a>
+  				</div>
+			</nav>
+			<div style="width: 80%; margin-left: auto;">
+					<div class="form2" style="height: 20px; position: absolute; margin-top: 20px; width: 10%;">
+							<button class="rechercheBtn2" onclick="window.location = 'https://france-appart.fr/Appartements/recherche.php';">Où voulez vous aller?</button>
+					</div>
+			</div>
+
+
+		<!-- slider pricipal -->
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  				<img src="img1.jpg" style="width:100%">
+  					<h1 class="text">la parenthèse</h1>
+  					<p class="text2">maximum 2 personnes</p>
+			</div>
+
+			<div class="mySlides fade">
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  				<img src="img2.jpg" style="width:100%">
+  					<h1 class="text">la parenthèse</h1>
+  					<p class="text2">maximum 2 personnes</p>
+			</div>
+
+			<div class="mySlides fade">
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  				<img src="img3.jpg" style="width:100%">
+  					<h1 class="text">la parenthèse</h1>
+  					<p class="text2">maximum 2 personnes</p>
+			</div>
+
+			<div class="mySlides fade">
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+  				<img src="img4.jpg" style="width:100%">
+  					<h1 class="text">la parenthèse</h1>
+  					<p class="text2">maximum 2 personnes</p>
+			</div>
+		</div>
+		<br>
+		<!-- slider pricipal -->
+
+		<!-- description du logement-->
+		<div class="container1">
+			<div class="container">
+				<h3>Description du logement:</h3>
+				<p><strong>Adresse:</strong> 4 rue Delille, 13001 MARSEILLE 01, France</p>
+				<p><strong>Taille:</strong>  20.0 m², 1 Salle de Bain</p>
+				<p><strong>Lits:</strong>  1 Canapé-lit</p>
+			</div>
+		</div>
+		<!-- description du logement-->
+		<div class="container1">
+			<div class="container">
+				<h3>Équipements:</h3>
+				<div class="col">
+					<ul>
+                  		<li>Serviettes et draps</li>
+                  		<li>TV</li>
+                  		<li>Cuisine</li>
+                  		<li>Wi-Fi</li>
+                  		<li>Machine à laver</li>
+                  		<li>Porte-manteaux</li>
+                 		<li>Non-fumeurs</li>
+            		</ul>
+					<ul>
+                  		<li style="padding-top: 15px">Papier toilette, savon</li>
+                  		<li>Air conditionné</li>
+                  		<li>Internet</li>
+                  		<li>Sèche-cheveux</li>
+                  		<li>Shampooing</li>
+                  		<li>Fer à repasser</li> 
+                 		<li>Séchoir</li>
+            		</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<h3 style="width: 100%">Carte:</h3>
+		</div>
+		<div id="map"></div>
+		<br>
+
+		<div class="container">
+			<h3>Réserver:</h3>
+		</div>
+		<div class="center" id="apartmentIframe120631">
+		<script type="text/javascript" src="https://login.smoobu.com/js/Settings/BookingToolIframe.js"></script>
+		<script>BookingToolIframe.initialize({"url": "https://login.smoobu.com/fr/booking-tool/iframe/11616/120631", "baseUrl": "https://login.smoobu.com", "target": "#apartmentIframe120631"})</script>
+		</div>
+
+		<!--footer-->
+		<footer>
+			<div class="container">
+				<h3>Contact</h3>
+				<div class="footer-content">
+					<ul class="footerList">
+						<div>
+							<li>Véronique Brottier, Marseillement Votre</p></li>
+							<li>Rue Delille 4, 13001 Marseille, France </p></li>
+						</div>
+						<div>
+							<li><i class="fas fa-phone-square-alt"></i> +33 7 71 64 08 18</li>	
+							<li><i class="fas fa-envelope-square"></i> veronique.brottier@gmail.com</li>
+							<li><a href="Mentions_legales/Mentions_legales.html" style="color: blue">Mentions légales, Conditions d'utilisation et RGPD</a></li>
+						</div>
+					</ul>
+				</div>
+			</div>
+	            <div class="container footer-content">
+	               <ul class="footerList">
+	               	<div>
+	               		<li> © France-Appart</li>
+	               	</div>
+	               	<div>
+	               		<li><i class="fas fa-envelope-square"></i> contact@france-appart.fr</li>
+	                  	<li><a href="">Terms, Conditions and Privacy Policy</a></li>
+	               	</div>
+	               </ul>      
+	            </div>
+		</footer>
+	</body>
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGYmSUKOzSW_gb1gYtY8hc4U35UoZALqM&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+<script src="script.js"></script>
+</html> 
+

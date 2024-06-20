@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>France-Appart</title>
+		<link rel="stylesheet" href="accueilStyle.css">		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
+	</head>
+	<body>
+			<!--barre de navigation-->
+			<nav>
+				<div class="home">
+					<p class="titre">France-Appart</p>
+				</div>
+				<div class="search_div">						
+					<div class="form1" style="position: absolute; margin-top: 20px; width: 10%;">
+							<button class="rechercheBtn" onclick="window.location = 'https://france-appart.fr/Appartements/recherche.php';">Où voulez vous aller?</button>
+					</div>
+				</div>
+				<div class="onglets">
+					<a class="link" style="display: none;">Connexion / Inscription</a>
+					<a class="link">Proposer mon hébergement</a>
+					<div class="language">
+  						<button onclick="window.location = 'https://france-appart.fr/accueil_An';" class="languagebtn" style="margin-top: 8%;"><i class="fas fa-flag-usa" style="margin: 20%;"></i><p style="margin: -1%;" class="anglais">Anglais</p></button>
+					</div>
+					<div class="dropdown" style="position:inherit;">
+  						<button onclick="myFunction()" class="dropbtn fas fa-align-justify"></button>
+					</div>
+				</div>
+				<div id="myDropdown" class="dropdown-content">
+    				<a href="https://france-appart.fr/espace_membre/Inscription.php">Connexion / Inscription</a>
+  				</div>
+			</nav>
+			<div style="width: 80%; margin-left: auto;">
+				<div class="form2" style="height: 20px; position: absolute; margin-top: 20px; width: 10%;">
+						<button class="rechercheBtn2" onclick="window.location = 'https://france-appart.fr/Appartements/recherche.php';">Où voulez vous aller?</button>
+				</div>
+			</div>
+			<br>
+			<!--titre-->
+		<div class="acceuilContainer">
+			<img class="imgAcceuil" src="accueilPhoto.jpg">
+			<div class="text_Acceuil">
+				<div style="position: relative; left: -50%;">
+					<h1 class="titre1">France-Appart</h1>
+					<h2 class="sousTitre1">Votre nouveau site de location d'appartements en France</h2>
+				</div>
+			</div>
+
+		</div>
+
+		<br>
+		<!--offres phares-->
+		<div class="container">
+			<h2>Nos destinations phares</h2>
+		</div>
+		<div class="destinationPhare">
+			<a class="lienDestinationPhare" href="Appartements\recherche.php?q=marseille">
+				<div>
+					<img class="imagePresentation" src="marseille.jpg">
+					<p class="textPresentation">Marseille</p>
+				</div>
+			</a>
+			<a class="lienDestinationPhare" href="Appartements\recherche.php?q=beziers">
+				<div>
+					<img class="imagePresentation" src="bezier.jpg">
+					<p class="textPresentation">Béziers</p>
+				</div>
+			</a>
+		</div>
+		<br>
+
+		<!--footer-->
+		<footer>
+			<div class="container">
+				<div class="footer-content">
+					<div class="footer_Copyright">
+						<p>© France-Appart</p>
+					</div>
+					<div class="footer_Left">
+						<div class="footer_Contact">
+							<p>
+							<i class="fas fa-envelope-square"></i> contact@france-appart.fr
+							</p>
+						</div>
+							<a href="" style="color: blue">Conditions générales et Confidentialité</a>			
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="accueilScript.js"></script>
+</html>

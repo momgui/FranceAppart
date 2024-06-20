@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>France-Appart</title>
+	<link rel="stylesheet" href="seconde_Page.css">		
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
+</head>
+<body>
+	<!--barre de navigation-->
+		<nav>
+			<div class="home">
+				<a href="..\index_An.html"><i class="fas fa-long-arrow-alt-left"></i></a>
+				<p class="titre">France-Appart</p>
+			</div>
+			<div class="search_div">						
+				<form class="form1" style="position: absolute; margin-top: 20px; width: 1%;">
+						<input type="search" value="" placeholder="Where do you want to go?" id="search" onchange="recherche()">	
+				</form>
+			</div>
+			<div class="onglets">
+				<a class="link" style="display: none;">Login / Registration</a>
+				<a class="link">Offer my accommodation</a>
+				<div class="language">
+  					<button onclick="myFunctionlanguageAn()" class="languagebtn" style="margin-top: 8%;"><i class="fas fa-flag-usa" style="margin: 20%;"></i><p style="margin: -1%;" class="anglais">French</p></button>
+				</div>
+				<div class="dropdown">
+  					<button onclick="myFunction()" class="dropbtn"><i class="fas fa-align-justify"></i></button>
+				</div>
+			</div>
+			<div id="myDropdown" class="dropdown-content">
+    			<a href="#">Login / Registration</a>
+  			</div>
+		</nav>
+		<div style="width: 80%; margin-left: auto;">
+			<form class="form2" style="position: absolute; margin-top: 20px; width: 1%;">
+					<input type="search" value="" placeholder="Where do you want to go?" id="search" onchange="recherche()">	
+			</form>
+		</div>
+			<br>
+
+	<!--titre-->
+	<div class="acceuilContainer">
+		<img class="imgAcceuil" src="img2.png">
+		<div class="text_Acceuil">
+			<div style="position: relative; left: -50%;">
+				<h1 class="titre1">Quiet and charming 3* house in the historic centre of Béziers</h1>
+				<p class="sousTitre1">the neighbourhood of the allées Paul Riquet, creator of the Canal du Midi, <a  target="_blank" style="color: #001aff; text-shadow: 0 0 black;" href="https://www.parcsetjardins.fr/jardins/1329-plateau-des-poetes">to the Poets' Garden</a> classified as a remarkable garden</p>
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<div class="container" style="text-align: center;">
+		<p>On the way to Santiago de Compostela you pass through a secret passageway into a semi-private garden courtyard.</p>
+
+		<p>For non-smoking guests who like peace and quiet and feel quickly at home in a renovated organic house equipped for 4 persons classified 3*, but with the possibility to have 2 extra children and a baby. Free WIFI. On the way to Santiago de Compostela you pass through a secret passageway into a semi-private garden courtyard.</p>
+
+		<p>A large dining room with a sofa bed 140x160, fully equipped kitchen, a shower room, separate toilet on the ground floor.</p>
+
+		<p>A bedroom with a 160x200 bed, a chest of drawers and a TV lounge with a 140x190 sofa bed on the first floor.</p>
+
+		<p>Possibility to enter with a key box.</p>
+
+		<p>We look forward to seeing you there.<p>
+
+			<p>François</p>
+
+			<p>From the house you can discover all the major sites of Béziers in less than 10 minutes on foot, and thus go to <a  target="_blank" style="color: #001aff;  black;" href="https://www.beziers-mediterranee.com/">the Tourist Office</a> to find out about all the activities and visits available in the city and the region. (All the words in blue are links to either routes or sites, so have fun finding your way around).</p>
+			<br>
+			<br>
+			<br>
+			<div class="justify">
+				<div class="text_Image">
+					<p>From the Place Saint-Jacques you have a commanding view of the Orb, the canal bridge and in the distance the view of the <a  target="_blank" style="color: #001aff;  black;" href="https://fr.mappy.com/itineraire#/recherche/Maison%203%20%C3%A9toiles%20calme%20et%20de%20charme%20centre%20historique%20de%20B%C3%A9ziers%20-%2049%20Place%20Saint-Jacques%2C%2034500%20B%C3%A9ziers/Cath%C3%A9drale%20Saint-Nazaire%20-%20Plan%20Monseigneur%20Blaqui%C3%A8re%2C%2034500%20B%C3%A9ziers">Saint-Nazaire Cathedral.</a></p>
+
+					<p>I have prepared a <a  target="_blank" style="color: #001aff;  black;" href="https://fr.mappy.com/itineraire#/pieton/Cath%C3%A9drale%20Saint-Nazaire%20-%20Plan%20Monseigneur%20Blaqui%C3%A8re%2C%2034500%20B%C3%A9ziers/Halles%20centrales%20-%20Place%20Pierre%20Semard%2C%2034500%20B%C3%A9ziers/walk/6">course</a> 30 minutes on foot to get there, passing by the old bullring, then the Tourist Office and <a  target="_blank" style="color: #001aff;  black;" href="https://fr.mappy.com/itineraire#/pieton/Halles%20centrales%20-%20Place%20Pierre%20Semard%2C%2034500%20B%C3%A9ziers/H%C3%B4tel%20de%20Boyer%20de%20Sorgues%20-%205%20Rue%20Mairan%2C%2034500%20B%C3%A9ziers/walk/32">the city hall</a>, <a  target="_blank" style="color: #001aff;  black;" href="https://monumentum.fr/halles-centrales-pa00103380.html">the Central Halls</a>, <a  target="_blank" style="color: #001aff;  black;" href="https://www.midilibre.fr/2020/12/26/catherine-de-medicis-et-son-fils-le-roi-charles-ix-ont-dormi-a-beziers-en-1564-9278368.php">the Boyer de Sorgues hotel</a>, and <a  target="_blank" style="color: #001aff;  black;" href="https://fr.mappy.com/itineraire#/pieton/H%C3%B4tel%20de%20Boyer%20de%20Sorgues%20-%205%20Rue%20Mairan%2C%2034500%20B%C3%A9ziers/Maison%203%20%C3%A9toiles%20calme%20et%20de%20charme%20centre%20historique%20de%20B%C3%A9ziers%20-%2049%20Place%20Saint-Jacques%2C%2034500%20B%C3%A9ziers/walk/39">return through the small streets.</a></p>
+
+					<p>One <a  target="_blank" style="color: #001aff;  black;" href="https://fr.mappy.com/itineraire#/pieton/Maison%203%20%C3%A9toiles%20calme%20et%20de%20charme%20centre%20historique%20de%20B%C3%A9ziers%20-%2049%20Place%20Saint-Jacques%2C%2034500%20B%C3%A9ziers/%C3%89glise%20de%20la%20Madeleine%20-%208%20Rue%20Cassan%2C%2034500%20B%C3%A9ziers/walk/47">other course</a> of 40 minutes will take you to the <a  target="_blank" style="color: #001aff;  black;" href="https://www.patrimoinereligieux34.catholique.fr/index.php/eglise-de-la-madeleine/247-eglise-de-la-madeleine">the Madeleine church</a> will take you through the <a  target="_blank" style="color: #001aff;  black;" href="https://fr.mappy.com/itineraire#/pieton/%C3%89glise%20de%20la%20Madeleine%20-%208%20Rue%20Cassan%2C%2034500%20B%C3%A9ziers/Th%C3%A9%C3%A2tre%20municipal%20-%20Place%20de%20la%20Victoire%2C%2034500%20B%C3%A9ziers/walk/56">municipal theatre</a></p>
+				</div>
+				<div>
+					<img src="img1.jpg"; style="width:100%">
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<p><a  target="_blank" style="color: #001aff;  black;" href="https://fr.mappy.com/itineraire#/pieton/Plateau%20des%20po%C3%A8tes%20-%20All%C3%A9es%20Paul%20Riquet%2C%2034500%20B%C3%A9ziers/Gare%20de%20B%C3%A9ziers%20-%20Boulevard%20De%20Verdun%2C%2034500%20B%C3%A9ziers/walk/75">until</a> the <a  target="_blank" style="color: #001aff;  black;" href="https://www.garesetconnexions.sncf/fr/gare/frbzr/beziers">Béziers train station</p> from where you can go by bus to the <a  target="_blank" style="color: #001aff;  black;" href="https://www.ville-valrasplage.fr/">Valras beach</a> (celebrating its 90th anniversary) in 30 minutes, <a  target="_blank" style="color: #001aff;  black;" href="https://fr.mappy.com/itineraire#/pieton/Gare%20de%20B%C3%A9ziers%20-%20Boulevard%20De%20Verdun%2C%2034500%20B%C3%A9ziers/Maison%203%20%C3%A9toiles%20calme%20et%20de%20charme%20centre%20historique%20de%20B%C3%A9ziers%20-%2049%20Place%20Saint-Jacques%2C%2034500%20B%C3%A9ziers/walk/82">before going up.</a></p>
+			<br>
+			<br>
+			<br>
+			<div class="justify">
+				<div>
+					<img src="img4.jpg"; style="width:100%">
+				</div>
+				<div class="text_Image">
+					<p>Don't forget to visit (<a  target="_blank" style="color: #001aff;  black;" href="https://fr.mappy.com/itineraire#/pieton/49%20Place%20Saint-Jacques%2C%2034500%20B%C3%A9ziers/%C3%89cluses%20de%20Fonserannes%20-%20Rampe%20du%20Coche%20d'Eau%2C%2034500%20B%C3%A9ziers/walk/80">25 minutes walk from the house</a>) the <a  target="_blank" style="color: #001aff;  black;" href="https://www.youtube.com/watch?v=adVEEXRSZHs">9 locks at Fonseranes</a> from where you can take a barge to sail on the Canal du Midi.</p>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="justify">
+				<div class="text_Image">
+					<p>Did you know that Béziers was the world capital of wine in the late 19th century?</p>
+					<p>Hence the great fortunes that built the city's beautiful buildings.</p> 
+					<p>Discover the Languedoc region and 7 different wines in an organic domain by following the link <a  target="_blank" style="color: #001aff;  black;" href="https://votreadressedecharmecentrebeziers.website.bokun.io/online-sales/experience/246094">from one of my recommended addresses.</a></p>
+				</div>
+				<div>
+					<img src="img3.png"; style="width:100%">
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="justify">
+				<div>
+					<img src="img5.jpg"; style="width:100%">
+				</div>
+				<div class="text_Image">
+					<p>But also discover the <a  target="_blank" style="color: #001aff;  black;" href="https://www.capdagde.com/webzine/vin-et-terroir/balade-des-sens-et-des-saveurs?utm_source=ADT_HERAULT&utm_medium=NEWSLETTER_FRANCE_JUILLET&utm_campaign=NEWSLETTER_ADT">STROLL OF THE SENSES AND FLAVOURS OF THE LAND AND ART OF LIVING</a> of Pezenas</p>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="justify">
+				<div class="text_Image">
+					<p>For experience <a  target="_blank" style="color: #001aff;  black;" href="https://www.capdagde.com/webzine/plaisirs-de-la-mer/inspirations-au-fil-de-leau?utm_source=ADT_HERAULT&utm_medium=NEWSLETTER_FRANCE_JUILLET&utm_campaign=NEWSLETTER_ADT">SEAWATER</a>, or <a  target="_blank" style="color: #001aff;  black;" href="https://youtu.be/TnYyEAiCjyo">freshwater</a></p>
+					<p><a  target="_blank" style="color: #001aff;  black;" href="https://youtu.be/UM5eePqyKtk">A GREEN HOLIDAY</a> The beautiful plains bordered by vineyards, the ribbon of the Canal du Midi, the terrestrial or marine reserves, all these vast natural spaces are waiting for you.</p>
+				</div>
+				<div>
+					<img src="img6.jpg"; style="width:100%">
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div class="justify">
+				<div>
+					<img src="img10.jpg"; style="width:100%">
+				</div>
+				<div class="text_Image">
+					<p>For a theatrical visit HERE MOLIÈRE ! Tuesdays at 6pm and 9pm from July 13th to August 17th, rediscover Molière during the theatrical visit of Pézenas, with the actors and singers of the "Fabrique Sauvage". </p>
+					<p>or for any other <a  target="_blank" style="color: #001aff;  black;" href="https://www.capdagde.com/agenda/pezenas-visite-theatralisee-ici-moliere?utm_source=ADT_HERAULT&utm_medium=NEWSLETTER_FRANCE_JUILLET&utm_campaign=NEWSLETTER_ADT">cultural outings</a>...</p>
+				</div>
+			</div>
+		</div>
+
+		<!--footer-->
+		<footer>
+			<div class="container">
+				<div class="footer-content">
+					<div class="footer_Copyright">
+						<p>© France-Appart</p>
+					</div>
+					<div class="footer_Left">
+						<div class="footer_Contact">
+							<p>
+								<i class="fas fa-envelope-square"></i> contact@france-appart.fr
+							</p>
+						</div>
+						<a href="" style="color: blue">Conditions générales et Confidentialité</a>			
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="..\..\recherche_Bot.js"></script>
+	<script src="seconde_Page.js"></script>
+	</html>
